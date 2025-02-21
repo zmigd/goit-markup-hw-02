@@ -86,10 +86,7 @@ p {
   background: var(--navy-blue);
 }
 .hero-btn {
-  
-  padding: 16px 32px;
- 
-  
+
   background: var(--iris);
   cursor: pointer;
   font-family: var(--font-family);
