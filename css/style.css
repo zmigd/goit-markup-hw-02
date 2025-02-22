@@ -89,7 +89,7 @@ p, .team-list_card_text{
   color: var(--slate);
 }
 .header-adress-link, .header-nav_link{
-  color: #434455 ;
+  color: var(--slate) ;
 }
 .hero {
   background: #2e2f42  ;
