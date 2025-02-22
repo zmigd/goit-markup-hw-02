@@ -25,13 +25,14 @@ body {
 address{
   font-style: normal;
 }
-.header-adress ul li a {
+.header-adress ul li a,
+.header-nav li a {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #434455 ;
 }
 .header-adress ul li a:hover,
 .header-nav li a:hover, .header-adress ul li a:focus,
