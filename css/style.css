@@ -1,4 +1,3 @@
-
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -22,26 +21,33 @@ body {
   background: var(--white);
   color: var(--slate);
 }
-address{
+address {
   font-style: normal;
 }
-.header-adress ul li a,
+.header-adress ul li a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 .header-nav li a {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: var(--navy-blue);
 }
 .header-adress ul li a:hover,
-.header-nav li a:hover, .header-adress ul li a:focus,
+.header-nav li a:hover,
+.header-adress ul li a:focus,
 .header-nav li a:focus {
   color: var(--ocean);
 }
 
-.header-logo
-{
+.header-logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -50,8 +56,7 @@ address{
   text-transform: uppercase;
   color: var(--iris);
 }
-.header-logo_span{
-  
+.header-logo_span {
   color: var(--navy-blue);
 }
 h1 {
@@ -71,7 +76,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 h3 {
   font-family: var(--font-family);
@@ -81,21 +86,19 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-p, .team-list_card_text{
+p,
+.team-list_card_text {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-adress-link, .header-nav_link{
-  color: var(--slate) ;
-}
+
 .hero {
-  background: #2e2f42  ;
+  background: #2e2f42;
 }
 .hero-btn {
-
   background: var(--iris);
   cursor: pointer;
   font-family: var(--font-family);
@@ -105,36 +108,36 @@ p, .team-list_card_text{
   letter-spacing: 0.04em;
   color: var(--white);
 }
-.hero-btn:hover, .hero-btn:focus {
-  
+.hero-btn:hover,
+.hero-btn:focus {
   background: var(--ocean);
 }
-.team{
+.team {
   background-color: var(--cloud);
 }
-.team-list_card{
- background: var(--white);
+.team-list_card {
+  background: var(--white);
 }
-.footer{
+.footer {
   background: var(--navy-blue);
 }
-.footer-logo{
+.footer-logo {
   font-family: var(--second-family);
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--iris);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
-.footer-logo_span{
+.footer-logo_span {
   color: var(--cloud);
 }
-.footer-text{
+.footer-text {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: var(--cloud);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
