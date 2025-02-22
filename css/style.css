@@ -81,7 +81,7 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-p, .team-list_card_text {
+p, .team-list_card_text, .header-adress-link{
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 150%;
@@ -110,6 +110,5 @@ p, .team-list_card_text {
   background-color: var(--cloud);
 }
 .team-list_card{
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: var(--white);
+ background: var(--white);
 }
