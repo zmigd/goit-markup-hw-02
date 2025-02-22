@@ -22,6 +22,9 @@ body {
   background: var(--white);
   color: var(--slate);
 }
+address{
+  font-style: normal;
+}
 .header-adress ul li a,
 .header-nav li a {
   font-family: var(--font-family);
@@ -32,9 +35,11 @@ body {
   color: var(--navy-blue);
 }
 .header-adress ul li a:hover,
-.header-nav li a:hover {
+.header-nav li a:hover, .header-adress ul li a:focus,
+.header-nav li a:focus {
   color: var(--ocean);
 }
+
 .header-logo
 {
   font-family: var(--second-family);
@@ -66,6 +71,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize
 }
 h3 {
   font-family: var(--font-family);
@@ -75,7 +81,7 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-p {
+p, .team-list_card_text {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 150%;
@@ -96,7 +102,14 @@ p {
   letter-spacing: 0.04em;
   color: var(--white);
 }
-.hero-btn:hover {
+.hero-btn:hover, .hero-btn:focus {
   
   background: var(--ocean);
+}
+.team{
+  background-color: var(--cloud);
+}
+.team-list_card{
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
 }
