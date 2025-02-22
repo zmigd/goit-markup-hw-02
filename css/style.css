@@ -81,11 +81,14 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-p, .team-list_card_text, .header-adress-link{
+p, .team-list_card_text{
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.header-adress-link{
   color: var(--slate);
 }
 .hero {
